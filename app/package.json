@@ -1,0 +1,13 @@
+{
+  "name": "bankist",
+  "version": "1.0.0",
+  "description": "Minimalist banking application",
+  "default": "index.html",
+  "license": "ISC",
+  "author": "Jucal Adefokun",
+  "type": "commonjs",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  }
+}
